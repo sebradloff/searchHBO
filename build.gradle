@@ -13,7 +13,7 @@ version = '1.0'
 [jettyRun, jettyRunWar, jettyStop]*.stopPort = 8081
 [jettyRun, jettyRunWar, jettyStop]*.stopKey = 'stopKey'
 
-war.baseName = "simpleSpring"
+war.baseName = "searchHBO"
 
 jettyRun.contextPath = '/'
 jettyRun.scanIntervalSeconds = 2

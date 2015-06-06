@@ -6,4 +6,4 @@ function createdb() {
   PGPASSWORD=postgres psql -U postgres -h localhost -c "create database ${DATABASE}"
 }
 
-createdb "simpleSpring"
+createdb "searchhbo"

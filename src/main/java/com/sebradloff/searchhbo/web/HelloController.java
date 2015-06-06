@@ -1,4 +1,4 @@
-package com.simplespring.mvc.web;
+package com.sebradloff.searchhbo.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

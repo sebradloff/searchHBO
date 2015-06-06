@@ -1,4 +1,4 @@
-package com.simplespring.mvc.mappers;
+package com.sebradloff.searchhbo.mappers;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;

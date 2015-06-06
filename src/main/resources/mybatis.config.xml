@@ -19,7 +19,7 @@
     </environments>
 
     <mappers>
-        <package name="com.simplespring.mvc.mappers"/>
+        <package name="com.sebradloff.searchhbo.mappers"/>
     </mappers>
 
 </configuration>

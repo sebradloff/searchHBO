@@ -1,4 +1,4 @@
-package com.simplespring.mvc;
+package com.sebradloff.searchhbo;
 
 import org.junit.Before;
 import org.junit.Test;
