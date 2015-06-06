@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SimpleSpring.iml" filepath="$PROJECT_DIR$/SimpleSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchHBO.iml" filepath="$PROJECT_DIR$/SearchHBO.iml" />
     </modules>
   </component>
 </project>
