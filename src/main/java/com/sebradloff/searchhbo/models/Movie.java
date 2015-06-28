@@ -12,6 +12,9 @@ public class Movie {
     private Long rottenTomatoesId;
     private String thumbnailURL;
 
+    //needed for retrieving from database
+    public Movie(){}
+
     public Movie(Long movie_id, Long hboId, String title, Long releaseYear, String imdbId, Long rottenTomatoesId, String thumbnailURL ){
         this.movie_id = movie_id;
         this.hboId = hboId;
@@ -23,4 +26,7 @@ public class Movie {
     }
 
 
+    public String getTitle() {
+        return title;
+    }
 }
