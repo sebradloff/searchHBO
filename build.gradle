@@ -76,6 +76,12 @@ task migrateDB(type: Exec) {
     commandLine './mybatis/bin/migrate', 'up'
 }
 
+test {
+    afterTest { desc, result ->
+        println "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
+    }
+}
+
 task loadTestData(type: Exec){
     commandLine 'psql' , 'searchhbo', '-f', "${project.rootDir.absolutePath}/src/test/data/testData.sql"
 }
