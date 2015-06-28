@@ -6,8 +6,10 @@
 *.iws
 build
 out
-.gradle
-gradle/
+
+### Gradle ###
+.gradle/
+build/
 
 
 gradleDebug
